@@ -14,7 +14,6 @@ h2 {
     }
 }
 .head-info {
-    max-width: 680px;
     text-align: center;
     margin: 0 auto;
     overflow: hidden;
@@ -22,15 +21,6 @@ h2 {
 
 .personal-img {
     margin-top: 20px;
-    display: block;
-    margin: auto;
-    float: none;
-}
-
-@media (min-width: 768px) {
-    .personal-img, img {
-        float: left;
-    }
 }
 
 img {
@@ -75,4 +65,7 @@ hr {
 .featured{
     color: #7d97ad;
     margin-left: 5px;
+}
+footer {
+    height: 3em;
 }
